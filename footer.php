@@ -58,7 +58,8 @@
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'customtheme' ) ); ?>">
 
 			</a>
-			<span class="sep">© Copyright <?php echo date('Y'); ?>  | Custom Theme By <a href="http://benthomasgill.com.au">Ben Thomas-Gill</a></span>
+			<span class="sep">Brunswick Lacrosse Club acknowledges the custodians of the land on which we play, the Wurundjeri Woi-wurrung people of the Kulin Nation, and their Elders past, present and future. <br>We acknowledge and respect the continuing culture and connection to land, waters and community.</span><br><br> 
+			<span class="sep">© Copyright Brunswick Lacrosse Club <?php echo date('Y'); ?>  | Custom Theme By <a href="https://benthomasgill.net/">Ben Thomas-Gill</a></span>
 		</div><!-- .site-info -->
 
 		<!--/ Start Local Business Schema /-->
@@ -66,6 +67,8 @@
 			<?php get_template_part('inc/footer/business-details'); ?> 
 		</div>
 		<!--/ End Local Business Schema /-->
+
+		<!-- <img class="pride-flag" src="<?php echo get_template_directory_uri(); ?>/images/footer/Progress-Pride-flag.webp"> -->
 
 	</footer><!-- #colophon -->
 

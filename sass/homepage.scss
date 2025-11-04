@@ -3,8 +3,197 @@
 }
 
 .homepage-tiles {
-    img {
-        max-width: 100%;
-        padding: 5px;
+    .ct-33 {
+        padding: 10px;
     }
+    .image-container {
+        position: relative;
+        width: 100%;
+        max-width: 800px; // optional
+      
+        img {
+          width: 100%;
+          display: block;
+        }
+      
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;          // full width
+            height: 100%;         // full height of the image
+            display: flex;
+            flex-direction: column;
+            justify-content: center;  // vertical centering
+            align-items: center;      // horizontal centering
+            text-align: center;
+            color: white;
+            background-color: rgba(0, 0, 0, 0.4); // semi-transparent overlay
+      
+          h1 {
+            margin: 0 0 10px 0;
+          }
+      
+          .btn {
+            display: inline-block;
+            background: #ff914d;
+            color: #fff;
+            padding: 12px 14px;
+            font-weight: bold;
+            text-decoration: none;
+            -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+            &:hover {
+                background-color: #ffaa00;
+            }
+          }
+        }
+      }
 }
+
+//video css
+
+.hero-video {
+    position: relative;
+    width: 100%;
+    height: 70vh; /* Full viewport height */
+    overflow: hidden;
+  }
+  
+  /* Wrapper fills viewport */
+  .hero-video__wrapper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* --- YOUTUBE EMBED FIX --- */
+  .hero-video__embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    overflow: hidden;
+    pointer-events: none; /* Disable iframe interactions */
+  }
+  
+  /* Scale the iframe to behave like background-size: cover */
+  .hero-video__embed iframe {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 177.78vh; /* 100 * (16 / 9) — fill width for tall screens */
+    height: 100vh;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 56.25vw; /* 100 / (16 / 9) — fill height for wide screens */
+    border: 0;
+    transition: all 0.2s ease;
+  }
+  
+  /* --- Overlay Content --- */
+  .hero-video__content {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    text-align: center;          /* Center text horizontally */
+    
+    display: flex;               /* Enable flexbox for centering */
+    flex-direction: column;      /* Stack h1, p, and button vertically */
+    justify-content: center;     /* Center vertically */
+    align-items: center;         /* Center horizontally */
+    
+    height: 100%;                /* Make it fill the hero height */
+    padding: 0 5%;               /* Optional: horizontal breathing room */
+  }
+  
+  .hero-video__content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 1.2;
+  }
+  
+  .hero-video__content p {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    max-width: 600px;            /* Keeps paragraph from being too wide */
+  }
+  
+  .hero-video__content .btn {
+    display: inline-block;
+    background: #ff914d;;
+    color: #fff;
+    padding: 12px 14px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .hero-video__content .btn:hover {
+    background: #ffaa00;
+  }
+  
+  
+  /* --- Responsive Tweaks --- */
+  @media (max-width: 768px) {
+    .hero-video__content {
+      padding: 15vh 8%;
+    }
+  
+    .hero-video__content h1 {
+      font-size: 2rem;
+    }
+  
+    .hero-video__content p {
+      font-size: 1rem;
+    }
+  }
+  
+  .hero-video::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.4); /* dark overlay */
+    z-index: 0; /* sits between video and text */
+  }
+
+  .homepage-teams-block {
+    background-color: #f9eed8;
+    .container {
+        h2 {
+            text-align: center;
+            font-size: 27px;
+            padding-top: 35px;
+            padding-bottom: 20px;
+        }
+        .wearebrunswick {
+            letter-spacing: 9px;
+            color: #e57b35;
+            padding-top: 70px;
+            padding-bottom: 40px;
+        }
+        .join-us {
+            display: block;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 40px;
+            .btn {
+                display: inline-block;
+                background: #ff914d;
+                color: #fff;
+                padding: 12px 14px;
+                font-weight: bold;
+                text-decoration: none;
+                -webkit-transition: background 0.3s;
+                transition: background 0.3s;
+            }
+            .btn:hover {
+                background: #ffaa00;
+            }
+        }
+    }
+  }

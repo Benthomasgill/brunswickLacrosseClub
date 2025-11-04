@@ -34,6 +34,13 @@
   width: 50%;
 }
 
+.link {
+  a {
+    font-weight: 600;
+    color: #ff914d;
+  }
+}
+
 .ct-float-text {
   display: flex;
   align-items: center;   
@@ -99,7 +106,7 @@
 
     h1 {
         text-align: center;
-        color: #000;
+        color: #333333;
         font-size: 3.5em;
         display: block;
         width: 100%;
@@ -156,22 +163,7 @@
 #text {
   white-space: nowrap;
   font-size: 36px;
-  color: #000;
+  color: #333333;
 }
 
-.wavy-text {
-  text-shadow: 
-    -2px -2px 0 #fff,
-    2px -2px 0 #fff,
-    -2px 2px 0 #fff,
-    2px 2px 0 #fff;
-  animation: wave-animation 2s infinite linear;
-}
 
-@keyframes wave-animation {
-    0% { text-shadow: -2px -2px 0 #fff;}
-    25% { text-shadow: 2px -2px 0 #fff;}
-    50% { text-shadow: -2px 2px 0 #fff;}
-    75% { text-shadow: 2px 2px 0 #fff;}
-    100% { text-shadow: -2px -2px 0 #fff;}
-}

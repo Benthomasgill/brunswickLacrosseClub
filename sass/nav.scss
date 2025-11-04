@@ -8,6 +8,7 @@
         .toggle-wrapper {
             padding-top: 25px;
             background-color: #ff914d;
+            display: none;
             .toggle-text {
                 background-color: #ff914d;
                 img {
@@ -201,6 +202,7 @@
 .nav-logo {
     max-width: 100px;
     position: absolute;
+    transition: max-width 0.3s ease;
 }
 
 /* Basic menu reset */
@@ -266,3 +268,33 @@
   display: block;
 }
 
+.teamstore::after {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 6px;
+    background: url('/wp-content/themes/brunswickLacrosseClub/images/icons/ExternalLink.svg') no-repeat center / contain;
+    position: absolute;
+    left: 103px;
+    top: 7px;
+  }
+
+.nav .btn {
+    display: inline-block;
+    background: #ffffff;
+    color: #ff914d;
+    padding: 12px 11px;
+    // border-radius: 4px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+}
+
+.nav .btn:hover {
+    background: #005f9e;
+    color: #ffffff;
+}

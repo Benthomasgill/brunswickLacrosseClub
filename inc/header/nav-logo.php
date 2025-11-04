@@ -19,6 +19,9 @@
                     ?>
                 </ul>
             </nav>
+            <div class="nav">
+                <a href="" class="btn">Register Now</a>
+            </div>            
 
 
             <!-- Search toggle button -->    
@@ -50,3 +53,18 @@
     </div>
 </div>
 
+<script>
+    // Select the logo element
+    const logo = document.querySelector('.nav-logo');
+
+    // Listen for scroll events
+    window.addEventListener('scroll', () => {
+    if (window.scrollY > 0) {
+        // User scrolled down → shrink logo
+        logo.style.maxWidth = '80px';
+    } else {
+        // At the top → restore original size
+        logo.style.maxWidth = '100px';
+    }
+    });
+</script>

@@ -1,5 +1,6 @@
 <div class="sponsor-carousel">
     <h2>Our Sponsors</h2>
+    <p>Our success would not be possible without the valued support of our local sponsors and partners.</p>
     <div class="swiper mySponsorSwiper">
         <div class="swiper-wrapper">
             <!-- Add your sponsor logos below -->
