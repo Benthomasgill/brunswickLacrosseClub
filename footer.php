@@ -14,34 +14,30 @@
 		<div class="ct-flex footer-container">
 			<div class="ct-20">
 				<ul>
-					<li><strong>Footer Header 1</strong></li>
-					<li>Footer item 1</li>
-					<li>Footer item 2</li>
-					<li>Footer item 3</li>
+					<li>Juniors</li>
+					<li>Mens</li>
+					<li>Womens</li>
 				</ul>
 			</div>
 			<div class="ct-20">	
 				<ul>
-					<li><strong>Footer Header 2</strong></li>
-					<li>Footer item 1</li>
-					<li>Footer item 2</li>
-					<li>Footer item 3</li>
+					<li>About</li>
+					<li>Gallery</li>
+					<li>Sponsors</li>
 				</ul>
 			</div>
 			<div class="ct-20">	
 				<ul>
-					<li><strong>Footer Header 3</strong></li>
-					<li>Footer item 1</li>
-					<li>Footer item 2</li>
-					<li>Footer item 3</li>
+					<li>Orange Club</li>
+					<li>Contact Us</li>
+					<li>Team Store</li>
 				</ul>
 			</div>
 			<div class="ct-20">	
 				<ul>
-					<li><strong>Footer Header 4</strong></li>
-					<li>Footer item 1</li>
-					<li>Footer item 2</li>
-					<li>Footer item 3</li>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>youTube</li>
 				</ul>
 			</div>
 			<div class="ct-20">	

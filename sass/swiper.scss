@@ -1,12 +1,12 @@
 .sponsor-carousel {
     width: 100%;
-    padding: 20px 0;
+    padding: 70px 0 50px;
     background: #f9f9f9;
 
     h2 {
         text-align: center;
         padding: 10px 0px 10px 0px;
-        font-size: 20px;
+        font-size: 27px;
     }
     p {
         text-align: center;
@@ -17,6 +17,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        min-height: 100px;
+        background-color: #fff;
     }
     .swiper-slide {
         img {
@@ -32,6 +34,27 @@
         filter: grayscale(0%);
         opacity: 1;
         transform: scale(1.05);
+        }
+    }
+    .join-us {
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 25px;
+        margin-top: 30px;
+        .btn {
+            display: inline-block;
+            background: #ff914d;
+            color: #fff;
+            padding: 12px 14px;
+            font-weight: bold;
+            text-decoration: none;
+            -webkit-transition: background 0.3s;
+            transition: background 0.3s;
+        }
+        .btn:hover {
+            background: #ffaa00;
         }
     }
 }

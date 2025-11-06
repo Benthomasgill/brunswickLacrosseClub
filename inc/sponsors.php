@@ -4,12 +4,15 @@
     <div class="swiper mySponsorSwiper">
         <div class="swiper-wrapper">
             <!-- Add your sponsor logos below -->
-            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sponsors/EBV.jpg" alt="Sponsor 1"></div>
+            <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sponsors/EBV.png" alt="Sponsor 1"></div>
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sponsors/MaidtoClean.jpg" alt="Sponsor 2"></div>
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/images/sponsors/Merri-bek.png" alt="Sponsor 3"></div>
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/sponsors/logo4.png" alt="Sponsor 4"></div>
             <div class="swiper-slide"><img src="<?php echo get_template_directory_uri(); ?>/assets/sponsors/logo5.png" alt="Sponsor 5"></div>
         </div>
+    </div>
+    <div class="join-us">
+        <a href="/sponsors/" class="btn">Become a Sponsor</a>
     </div>
 </div>
 

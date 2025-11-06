@@ -1,7 +1,5 @@
 <?php 
 
-/* Template Name: purpose */
-
 get_header();
 
 
@@ -15,7 +13,7 @@ get_header();
         <div class="container">
             <div class="ct-flex">
                 <div class="ct-50">
-                    <img alt="our purpose" class="our-purpose-img" src="<?php echo get_template_directory_uri(); ?>/images/page/purpose_placeholder.png">
+                    <img alt="Brunswick Lacrosse Club Women's teams on during Pride round" class="our-purpose-img" src="<?php echo get_template_directory_uri(); ?>/images/page/about1.jpg">
                 </div>
                 <div class="ct-50 ct-float-text">
                     <p><span class="sub-heading">Our Purpose and Values</span><br><br>Brunswick Lacrosse aims to promote and develop players, coaches and volunteers whilst striving for excellence within the sport of lacrosse and by following the rules and by laws set out by Lacrosse Victoria Association Incorporated.<br><br>
@@ -28,10 +26,12 @@ get_header();
         <div class="container">
             <div class="ct-flex">
                 <div class="ct-50 ct-float-text">
-                    <p><span class="sub-heading">Our History</span><br><br>Brunswick Lacrosse Club began as Moreland Lacrosse in 1994 by local residents of nearby Albert Street. It started as a junior team for children under 11 years by merging of teams from Moreland Primary School and Alphington Grammar School. <br><br>The club’s first game was at Fleming Park and as the club grew through the junior and senior grades it moved to Brearley Reserve and Clifton Park. The club returned home to Fleming Park, with a strong community energy in 2011. In 2020 the club has grown to 7 teams including women, men, girls and boys. Plans are in place by Moreland Council for upgrades to the clubhouse and change rooms in the near future.</p>
+                    <p><span class="sub-heading">Our History</span><br><br>Brunswick Lacrosse Club began as Moreland Lacrosse in 1994 by local residents of nearby Albert Street. It started as a junior team for children under 11 years by merging of teams from Moreland Primary School and Alphington Grammar School. <br><br>The club’s first game was at Fleming Park and as the club grew through the junior and senior grades it moved to Brearley Reserve and Clifton Park. The club returned home to Fleming Park, with a strong community energy in 2011. In 2025 the club has grown to 7 teams including women, men, girls and boys. We also welcome any gender diverse people to play in a team that feels most comfortable for them. 
+                    
+                    <br><br>Brunswick Lacrosse club's clubhouse and change rooms have recently been upgraded with excellent new facilities, providing a modern and welcoming space for all members. We continue to focus on making our club a community that we can all be proud of.</p>
                 </div>
                 <div class="ct-50">
-                    <img alt="our purpose" class="our-purpose-img" src="<?php echo get_template_directory_uri(); ?>/images/page/purpose_placeholder.png">
+                    <img alt="our purpose" class="our-purpose-img" src="<?php echo get_template_directory_uri(); ?>/images/page/about2.jpg">
                 </div>
             </div>
         </div>					

@@ -16,4 +16,41 @@
     }
 }
 
- 
+.sponsors {
+    h2 {
+        text-align: center;
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+    .ct-33 {
+        padding: 10px;
+        .sponsor-block {
+            padding: 20px;
+            min-height: 310px;
+        background-color: #fff;
+            img {
+                max-width: 150px;
+            }
+        }
+    }
+}
+
+.icon-text {
+    display: flex;
+    img {
+        max-width: 20px;
+        margin-right: 5px;
+    }
+}
+
+.contact-map {
+    width: 90%; 
+    height: 400px;
+}
+
+.inactive {
+    opacity: 0.5;                  /* Greys it out visually */
+    pointer-events: none;          /* Disables all clicks/interactions */
+    filter: grayscale(60%);        /* Optional: desaturate colors */
+    user-select: none;  
+}

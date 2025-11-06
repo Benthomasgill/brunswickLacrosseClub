@@ -44,3 +44,5 @@ if (parseInt(text.style.marginLeft) <= -1000) {
     text.style.marginLeft = "100%";
 }
 }, 80);
+
+

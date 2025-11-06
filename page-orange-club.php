@@ -1,7 +1,5 @@
 <?php 
 
-/* Template Name: purpose */
-
 get_header();
 
 
