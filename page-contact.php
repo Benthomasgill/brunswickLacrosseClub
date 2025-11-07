@@ -26,7 +26,7 @@ get_header();
                         </iframe>
                     </div>
                 </div>
-                <div class="ct-50 ct-float-text">
+                <div class="ct-50 ct-float-text contact-copy">
                     <p><span class="sub-heading">Connect with us</span><br><br>
                     If you’re interested in joining Brunswick Lacrosse Club, we’d love to hear from you! Whether you’re completely new to the sport or a returning player, we welcome everyone to get involved. If you have any questions about how to join, what equipment you’ll need, or details about fees and what the club provides, please don’t hesitate to reach out. <br><br>
                     <span class="icon-text">

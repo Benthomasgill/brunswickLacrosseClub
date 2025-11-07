@@ -140,6 +140,9 @@
             padding: 8px;
         }
     }
+    @media (max-width: 959px) {
+        height: 74px;
+    }
 }
 
 .active-menu {
@@ -203,6 +206,11 @@
     max-width: 100px;
     position: absolute;
     transition: max-width 0.3s ease;
+    @media (max-width: 959px) {
+        max-height: 90px;
+        left: 20px;
+        max-width: 90px !important;
+    }
 }
 
 /* Basic menu reset */
@@ -292,6 +300,11 @@
     text-align: center;
     position: absolute;
     top: 16px;
+    min-width: 130px;
+    right: 30px;
+    @media (max-width: 959px) {
+        display: none;
+    }
 }
 
 .nav .btn:hover {

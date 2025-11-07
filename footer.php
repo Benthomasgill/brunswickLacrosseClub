@@ -24,23 +24,26 @@
 					<li>About</li>
 					<li>Gallery</li>
 					<li>Sponsors</li>
-				</ul>
-			</div>
-			<div class="ct-20">	
-				<ul>
 					<li>Orange Club</li>
 					<li>Contact Us</li>
 					<li>Team Store</li>
 				</ul>
 			</div>
-			<div class="ct-20">	
+			<div class="ct-20 sociallist">	
 				<ul>
-					<li>Facebook</li>
-					<li>Instagram</li>
-					<li>youTube</li>
+					<li><strong>Follow Us</strong></li>
+					<li><img src="<?php echo get_template_directory_uri(); ?>/images/icons/facebook_white.svg">Facebook</li>
+					<li class="insta"><img src="<?php echo get_template_directory_uri(); ?>/images/icons/instagram_white.svg">Instagram</li>
+					<li><img src="<?php echo get_template_directory_uri(); ?>/images/icons/youTube.svg">youTube</li>
 				</ul>
 			</div>
 			<div class="ct-20">	
+				<ul>
+
+				</ul>
+			</div>
+			<div class="ct-20">
+				<img class="footer-logo" alt="Brunswick Lacrosse Club" src="<?php echo get_template_directory_uri(); ?>/images/logos/logo.png">	
 				<p><?php echo primary_details()['business_name']; ?><br>
 				<?php echo primary_details()['street_address']; ?>,<br>
 				<?php echo primary_details()['suburb']; ?> <?php echo primary_details()['state']; ?> <?php echo primary_details()['postcode']; ?><br>
